@@ -1,13 +1,15 @@
 //WAP to print prime numbers in a range
-// for(i=1;i<=50;i++){
-//     for(j=i;j<=i;j++){
-//         if(j%i==0){
-//             console.log(i);
-            
+// for(i=2;i<=50;i++){
+//     let count=0;
+//     for(j=1;j<=i;j++){
+//         if(i%j==0){
+//             count++
 //         }
 //     }
+//     if(count == 2){
+//         console.log(`${i}`);
+//     }
 // }
-
 
 //WAP print the following pattern using nested loops:
 // 1
